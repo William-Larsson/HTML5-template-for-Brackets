@@ -10,14 +10,12 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, regexp: true, indent: 4, maxerr: 50 */
 /*global define, $, brackets */
 
-
 define(function (require, exports, module) {
     "use strict";
 
     var CommandManager = brackets.getModule("command/CommandManager"),
         EditorManager = brackets.getModule("editor/EditorManager"),
         Menus = brackets.getModule("command/Menus");
-
 
     // When the menu item is clicked:
     function betterHtml() {
@@ -47,12 +45,10 @@ define(function (require, exports, module) {
         }
     }
 
-
     var COMMAND_ID = "betterhtmltemplate.williamlarsson"; // package-style naming to avoid collisions
     CommandManager.register("Better HTML5 Template", COMMAND_ID, betterHtml);
 
-    // Then create a menu item bound to the command
-    // The label of the menu item is the name we gave the command (see above)
+    // Create a menu item
     var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
     menu.addMenuDivider();
     menu.addMenuItem(COMMAND_ID);
