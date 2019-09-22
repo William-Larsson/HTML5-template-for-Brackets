@@ -1,0 +1,18 @@
+{
+    "name": "williamlarsson.betterhtmltemplate",
+    "title": "Better HTML5 template",
+    "description": "A better HTML5 template that gives you a solid starting point to work from.",
+    "homepage": "https://github.com/WLarsson/HTML5-template-for-Brackets",
+    "version": "1.0.0",
+    "author": "William Larsson (https://github.com/WLarsson)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    },
+    "i18n": ["en", "sv"],
+    "package-i18n": {
+        "sv": {
+            "description": "En bättre HTML5 mall som ger dig en stadigt grund att arbeta utifrån."
+        }
+    }
+}
