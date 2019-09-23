@@ -2,9 +2,9 @@
     "name": "williamlarsson.betterhtmltemplate",
     "title": "Better HTML5 template",
     "description": "A better HTML5 template that gives you a solid starting point to work from.",
-    "homepage": "https://github.com/WLarsson/HTML5-template-for-Brackets",
-    "version": "1.0.0",
-    "author": "William Larsson (https://github.com/WLarsson)",
+    "homepage": "https://github.com/William-Larsson/HTML5-template-for-Brackets",
+    "version": "1.0.1",
+    "author": "William Larsson (https://github.com/William-Larsson)",
     "license": "MIT",
     "engines": {
         "brackets": ">=0.24.0"
